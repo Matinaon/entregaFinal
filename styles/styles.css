@@ -1,0 +1,107 @@
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap');
+
+/* variables */
+
+:root {
+    --color-fondo: white;
+    --color-texto: black;
+    --color-rojo: #e53935;
+}
+
+/* estilos */
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+h1, h2, h3 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 2rem 4rem;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--color-rojo);
+}
+
+.nav-link {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    color: var(--color-rojo);
+    margin-left: 2rem;
+}
+
+.nav-link:hover {
+    color: var(--color-rojo);
+}
+
+/* encabezado */
+
+header {
+    padding: 3rem 0;
+}
+
+header h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+header p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* proyectos */
+
+#proyectos {
+    padding: 2rem 4rem;
+}
+
+#contenedor-proyectos img {
+    width: 100%;
+    transition: opacity 0.3s;
+}
+
+#contenedor-proyectos img:hover {
+    opacity: 0.7;
+}
+
+#contenedor-proyectos p {
+    color: var(--color-rojo);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* footer */
+
+footer {
+    padding: 3rem 1rem;
+    margin-top: 3rem;
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    color: var(--color-rojo);
+}
+

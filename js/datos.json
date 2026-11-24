@@ -1,0 +1,33 @@
+
+[
+    {
+        "nombre": "VÉRTIGO",
+        "imagen": "imagenes/vertigo.png",
+        "descripcion": "Juego de mesa Vértigo"
+    },
+    {
+        "nombre": "DESBORDE",
+        "imagen": "imagenes/desborde.png",
+        "descripcion": "Identidad Desborde"
+    },
+    {
+        "nombre": "INSOMNIA",
+        "imagen": "imagenes/insomnia.png",
+        "descripcion": "Videojuego Insomnia"
+    },
+    {
+        "nombre": "NAVE ESPACIAL",
+        "imagen": "imagenes/nave espacial.png",
+        "descripcion": " Nave espacial programada"
+    },
+    {
+        "nombre": "FANZINE",
+        "imagen": "imagenes/fanzine.png",
+        "descripcion": "Fanzine lab1"
+    },
+    {
+        "nombre": "ENTRE OLAS",
+        "imagen": "imagenes/entre olas.png",
+        "descripcion": "Entre olas "
+    }
+]
